@@ -1,46 +1,43 @@
 ---
 name: plain-copy
-description: Write or review user-facing text (app UI strings, buttons, errors, empty states, onboarding, website copy, docs) so it reads as plain, human English and drops AI writing tics. Use when writing any string a person will read in a product, or when asked to make copy shorter, plainer, or "more human".
+description: Write or review text people read in a product or on a website (UI strings, errors, empty states, docs). Use for any such string, or to make copy shorter, plainer or more human.
 ---
 
 # Plain copy
 
-Every string should read the way a helpful friend talks. These rules adapt two sources for product text: [b1rdmania/claude-plain-english-skill](https://github.com/b1rdmania/claude-plain-english-skill) (Orwell and Gowers, plus common AI tics) and Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
+Use the fewest words that still work. Cut first, then rewrite what's left.
 
-## Leave it unsaid
+## Cut
 
-This rule comes first. If the screen shows something, don't also describe it.
+- What the screen shows: no "Name" above a name.
+- What the user will notice anyway.
+- Helper text, unless a first-time user would get stuck.
+- Intros, reasons and filler: please, successfully, currently, in order to.
 
-- Cut helper text that explains how a control works, what happens next, or why a feature exists. Keep it only if a first-time user would get stuck without it.
-- Most rows need a title only, no subtitle.
-- Don't label what is plain to see: no "Type: QR" under a QR code, no "Name" above a name. A value that explains itself goes on screen bare.
-- Don't narrate behaviour the user will notice anyway. If the screen gets brighter, it needs no "Full brightness" badge.
+Keep what people need to decide, recover or stay safe: what can't be undone, the fix in an error, legal and safety text, names for icon-only controls.
 
-## Write it
+## Write
 
-1. Short. If a word can go without changing the meaning, cut it. "Add item", not "Add a new item to your list".
-2. Active, with someone doing it. "We saved your changes", not "Your changes have been saved".
-3. In everyday words: use, start, end, help, about.
-4. As facts. "3 tasks left", not "You're crushing it". Praise only what really happened.
-5. With verbs on buttons: Save, Add set, Import. Dialog buttons say what they do ("Discard", "Keep editing"), not "OK".
-6. With errors that say what happened and what to do next. "That file is too big. Pick one under 10 MB." No codes in the main text, and no blame.
-7. Condition first. "If you skip this, we use the default."
-8. With numbers, not adjectives. "6 steps · ~5 min", not "a quick, easy setup".
-9. In sentence case, for titles and headings too: "Account settings", not "Account Settings".
-10. With one name per thing. Pick a word for each concept and never swap in synonyms. If the project has a glossary, it is the dictionary.
+- Buttons: a verb, on one line. "Discard", not "OK".
+- Confirmations: "Saved", not "Your changes have been saved".
+- Errors: what, where, the fix. "We couldn't upload that file. Pick one under 10 MB." No codes or blame.
+- Steps: one action each, starting with a verb. Warnings go first.
+- Sentences: one idea, 15 words or fewer where you can, never over 25. Year 7 reading level, except where a technical concept needs more.
+- Words: use, start, before, not utilise, commence, prior to.
+- Conditions first: "If you skip this, we use the default."
+- Facts: "6 steps · ~5 min", not "a quick, easy setup".
+- One word per concept. A project glossary overrides this skill.
+- Sentence case, including headings.
+- Short forms: spell out on first use unless well known. No eg, ie or etc.
+- Numbers: zero and one as words in sentences, otherwise digits. 1,000 · 2 November 2026 · 2/11/2026 in tables · 4:30 pm · noon.
+- Links: say where they go, never "click here". Add file type and size: "(PDF 160 KB)".
+- Colour is never the only signal.
 
 ## Don't write
 
-- AI words: seamless, effortless, leverage, robust, crucial, vital, key (as an adjective), enhance, elevate, empower, unlock, streamline, journey, showcase, testament, vibrant, notably, delve, landscape, comprehensive.
-- "Not just X, it's Y" lines, or "No X, no Y, just Z" lines. State the thing itself.
-- Trailing "-ing" clauses that comment on the sentence ("…, making it easier to stay on track").
-- False ranges ("from beginners to pros").
-- Lists padded to three. If there are two points, write two.
-- Vague sources ("experts recommend"). Name the source or cut the claim.
-- Em dashes in prose, or exclamation marks. Use full stops, commas, and "·" between data. Save an exclamation mark for a real win, if anywhere.
-- Bold or emoji as decoration. Emoji are fine only where the user chose them.
-- Guilt. Missed days, broken streaks and time away are stated plainly or not at all.
-
-## Check
-
-Before you finish, give every new or changed string one pass against this list. Cut first, then rewrite what's left.
+- AI words: seamless, leverage, robust, crucial, key (adjective), enhance, elevate, empower, unlock, streamline, journey, showcase, testament, vibrant, delve, landscape, comprehensive.
+- "Not just X, it's Y" or "No X, no Y, just Z".
+- Trailing "-ing" comments ("…, making it easier").
+- False ranges, lists padded to three, vague sources ("experts recommend").
+- Em dashes, exclamation marks, decorative bold or emoji.
+- Praise you can't back up, or guilt about missed days.

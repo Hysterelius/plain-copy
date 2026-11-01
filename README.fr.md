@@ -31,6 +31,8 @@ Les règles visent l'anglais. Les idées de fond (en dire moins, choisir des mot
 
 Adapté de [b1rdmania/claude-plain-english-skill](https://github.com/b1rdmania/claude-plain-english-skill) et de la page Wikipédia [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
 
+S'appuie aussi sur le [Style Manual](https://www.stylemanual.gov.au/) du gouvernement australien, le [guide de style de NSW](https://www.digital.nsw.gov.au/delivery/digital-service-toolkit/resources/writing-content/content-style-guide), celui du [ministère de l'Éducation de NSW](https://education.nsw.gov.au/about-us/how-we-communicate/content-style-guide) et ISO 24495-1 (langage clair).
+
 ## Licence
 
 [CC0 1.0](LICENSE). Domaine public. Faites-en ce que vous voulez.

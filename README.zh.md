@@ -31,6 +31,8 @@ cp -r plain-copy/skills/plain-copy ~/.claude/skills/
 
 改编自 [b1rdmania/claude-plain-english-skill](https://github.com/b1rdmania/claude-plain-english-skill) 和维基百科的 [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)。
 
+还参考了澳大利亚政府 [Style Manual](https://www.stylemanual.gov.au/)、[新南威尔士州政府内容风格指南](https://www.digital.nsw.gov.au/delivery/digital-service-toolkit/resources/writing-content/content-style-guide)、[新南威尔士州教育部内容风格指南](https://education.nsw.gov.au/about-us/how-we-communicate/content-style-guide)和 ISO 24495-1（简明语言）。
+
 ## 许可证
 
 [CC0 1.0](LICENSE)。公有领域，随意使用。

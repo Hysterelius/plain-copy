@@ -31,6 +31,8 @@ The rules are written for English. The ideas behind them (say less, use common w
 
 Adapted from [b1rdmania/claude-plain-english-skill](https://github.com/b1rdmania/claude-plain-english-skill) and Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
 
+Rules also draw on the Australian Government [Style Manual](https://www.stylemanual.gov.au/), the [NSW Government content style guide](https://www.digital.nsw.gov.au/delivery/digital-service-toolkit/resources/writing-content/content-style-guide), the [NSW Department of Education content style guide](https://education.nsw.gov.au/about-us/how-we-communicate/content-style-guide) and ISO 24495-1 (plain language).
+
 ## License
 
 [CC0 1.0](LICENSE). Public domain. Use it however you like.

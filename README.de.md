@@ -31,6 +31,8 @@ Die Regeln sind für Englisch geschrieben. Die Grundideen (weniger sagen, gängi
 
 Angepasst aus [b1rdmania/claude-plain-english-skill](https://github.com/b1rdmania/claude-plain-english-skill) und der Wikipedia-Seite [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
 
+Stützt sich auch auf das [Style Manual](https://www.stylemanual.gov.au/) der australischen Regierung, den [Styleguide von NSW](https://www.digital.nsw.gov.au/delivery/digital-service-toolkit/resources/writing-content/content-style-guide), den des [Bildungsministeriums von NSW](https://education.nsw.gov.au/about-us/how-we-communicate/content-style-guide) und ISO 24495-1 (einfache Sprache).
+
 ## Lizenz
 
 [CC0 1.0](LICENSE). Gemeinfrei. Mach damit, was du willst.
